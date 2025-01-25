@@ -1,0 +1,1 @@
+This repository demonstrates an example of an unhandled exception within a Scala Future and provides a solution. The original code throws an exception if the input is zero, but the exception isn't handled, resulting in potential application failure. The solution shows how to use a `recover` or `recoverWith` method to gracefully handle the exception.
